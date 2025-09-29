@@ -16,8 +16,9 @@ header {
 
 h1 {
     color: white;
-    float: left;
-    margin-top: 10px;
+    margin-right: auto;
+    justify-content: flex-start;
+    margin: 0 4px;
 }
 
 h2 {
@@ -31,8 +32,7 @@ p {
 }
 
 nav {
-    float: right;
-    margin-top: 20px;
+    display:flex;
 }
 
 nav a {
@@ -53,7 +53,9 @@ main.container {
 }
 
 section {
-    float: left;
+    display: flex;
+    flex-direction: column;
+    order: 1;
     width: 600px;
     padding: 20px;
     background-color: white;
@@ -65,7 +67,9 @@ section img {
 }
 
 aside {
-    float: right;
+    display: flex;
+    flex-direction: column;
+    order: 2;
     width: 200px;
     padding: 20px;
     background: white;
